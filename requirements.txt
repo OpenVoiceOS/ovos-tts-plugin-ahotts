@@ -1,2 +1,1 @@
-coqui-tts
-langcodes
+ovos-plugin-manager
