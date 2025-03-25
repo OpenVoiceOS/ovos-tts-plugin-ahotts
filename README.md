@@ -8,15 +8,6 @@ OVOS TTS plugin for [AhoTTS](https://github.com/aholab/AhoTTS)
 
 `pip install ovos-tts-plugin-ahotts`
 
-You also need to compile AhoTTS and then set the binary path in your mycroft.conf
-
-```bash
-echo "Installing AhoTTS"
-git clone https://github.com/aholab/AhoTTS /tmp/AhoTTS
-cd /tmp/AhoTTS
-./script_compile_all_linux.sh
-mv /tmp/AhoTTS/bin /usr/bin/AhoTTS/
-```
 
 ## Configuration
 
@@ -24,9 +15,7 @@ mv /tmp/AhoTTS/bin /usr/bin/AhoTTS/
   "tts": {
     "module": "ovos-tts-plugin-ahotts",
     "ovos-tts-plugin-ahotts": {
-        "bin": "/usr/bin/AhoTTS/tts",
-        "lang": "eu",
-        "speed": 100
+        "lang": "eu"
     }
   }
 ```

@@ -11,12 +11,9 @@
 # limitations under the License.
 #
 
-import os
-import subprocess
-import tempfile
-
 from ovos_plugin_manager.templates.tts import TTS
 from ovos_utils.log import LOG
+from pyahotts import AhoTTS
 
 
 class AhoTTSPlugin(TTS):
@@ -25,28 +22,9 @@ class AhoTTSPlugin(TTS):
     def __init__(self, config=None):
         config = config or {}
         super(AhoTTSPlugin, self).__init__(config=config, audio_ext='wav')
-        self.bin = self.config.get("bin", "/usr/bin/AhoTTS/tts")
         if self.lang.split("-")[0] not in ["es", "eu"]:
             raise ValueError(f"unsupported language: {self.lang}")
-        self.speed = self.config.get("speed", 100)
-
-    def _ahotts(self, speed: int, text_to_synthesize: str,
-                output_file: str, lang: str = "eu"):
-        # Use a temporary directory for intermediate files
-        with tempfile.TemporaryDirectory() as tmp_dir:
-            input_file = os.path.join(tmp_dir, "input.txt")
-            # Save the text to a temporary input file with WINDOWS-1252 encoding
-            with open(input_file, 'w', encoding='windows-1252') as txt_input:
-                txt_input.write(text_to_synthesize)
-
-            # Run TTS command
-            args = [self.bin, f"-Speed={speed}", f"-Lang={lang}", f"-InputFile={input_file}",
-                    f"-OutputFile={output_file}"]
-            exit_code = subprocess.call(args, cwd=os.path.dirname(self.bin))  # exit code 1 on success
-            if not os.path.isfile(output_file):
-                raise RuntimeError("TTS synth failed")
-
-            return output_file
+        self.engine = AhoTTS()
 
     def get_tts(self, sentence, wav_file, lang=None):
         """Fetch tts audio using ahotts
@@ -62,7 +40,7 @@ class AhoTTSPlugin(TTS):
             LOG.warning(f"Unsupported language! using default 'eu'")
             lang = "eu"
 
-        self._ahotts(self.speed, sentence, wav_file, lang)
+        self.engine.get_tts(sentence, lang, wav_file)
 
         return (wav_file, None)  # No phonemes
 
@@ -77,7 +55,6 @@ class AhoTTSPlugin(TTS):
         return {"es", "eu"}
 
 
-
 if __name__ == "__main__":
     tts = AhoTTSPlugin({"lang": "eu"})
-    tts.get_tts("kaixo mundua", "/home/miro/PycharmProjects/ovos-tts-plugin-ahotts/test.wav")
+    tts.get_tts("kaixo mundua", "/tmp/test.wav")
