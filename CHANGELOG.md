@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.1a1) (2025-06-08)
+## [0.1.2a1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a1) (2025-11-22)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.0...0.1.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.1...0.1.2a1)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- Update requirements.txt [\#3](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/3) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
