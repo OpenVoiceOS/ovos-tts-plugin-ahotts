@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a4](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a4) (2026-06-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a3...0.1.2a4)
+
+**Merged pull requests:**
+
+- docs: add TigreGotico attribution, link ILENIA [\#11](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/11) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.2a3](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a3) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a2...0.1.2a3)
