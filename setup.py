@@ -61,6 +61,7 @@ setup(
     license='Apache-2.0',
     packages=['ovos_tts_plugin_ahotts'],
     install_requires=required("requirements.txt"),
+    extras_require={"test": ["ovoscope[tts]", "pytest"]},
     zip_safe=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
