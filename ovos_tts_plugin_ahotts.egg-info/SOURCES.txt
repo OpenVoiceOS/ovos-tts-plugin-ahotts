@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+ovos_tts_plugin_ahotts/__init__.py
+ovos_tts_plugin_ahotts/version.py
+ovos_tts_plugin_ahotts.egg-info/PKG-INFO
+ovos_tts_plugin_ahotts.egg-info/SOURCES.txt
+ovos_tts_plugin_ahotts.egg-info/dependency_links.txt
+ovos_tts_plugin_ahotts.egg-info/entry_points.txt
+ovos_tts_plugin_ahotts.egg-info/requires.txt
+ovos_tts_plugin_ahotts.egg-info/top_level.txt
