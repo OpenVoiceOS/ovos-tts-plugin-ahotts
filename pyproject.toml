@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-tts-plugin-ahotts"
+dynamic = ["version"]
+description = "A basque/spanish tts plugin for OVOS"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [
+    {name = "JarbasAi", email = "jarbasai@mailfence.com"},
+]
+keywords = ["mycroft", "ovos", "plugin", "tts"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Text Processing :: Linguistic",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.0",
+    "Programming Language :: Python :: 3.1",
+    "Programming Language :: Python :: 3.2",
+    "Programming Language :: Python :: 3.3",
+    "Programming Language :: Python :: 3.4",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+]
+dependencies = [
+    "ovos-plugin-manager>=1.0.0,<3.0.0",
+    "pyahotts",
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts"
+
+[project.entry-points."opm.tts"]
+"ovos-tts-plugin-ahotts" = "ovos_tts_plugin_ahotts:AhoTTSPlugin"
+
+[tool.setuptools.dynamic]
+version = {attr = "ovos_tts_plugin_ahotts.version.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ovos_tts_plugin_ahotts*"]
