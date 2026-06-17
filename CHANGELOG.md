@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a6](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a6) (2026-06-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a5...0.1.2a6)
+
+**Merged pull requests:**
+
+- test: add TTS intelligibility e2e \(ovoscope\) [\#13](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/13) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.2a5](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a5) (2026-06-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a4...0.1.2a5)
