@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a5](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a5) (2026-06-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a4...0.1.2a5)
+
+**Merged pull requests:**
+
+- chore: add missing shared CI workflows [\#12](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.2a4](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a4) (2026-06-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a3...0.1.2a4)
