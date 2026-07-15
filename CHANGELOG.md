@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0a1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.2.0a1) (2026-07-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a6...0.2.0a1)
+
+**Merged pull requests:**
+
+- feat: containerize plugin behind ovos-tts-server [\#20](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/20) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.2a6](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a6) (2026-06-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a5...0.1.2a6)
