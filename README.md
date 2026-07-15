@@ -20,6 +20,32 @@ OVOS TTS plugin for [AhoTTS](https://github.com/aholab/AhoTTS)
   }
 ```
 
+## Docker
+
+A container that serves this plugin behind [ovos-tts-server](https://github.com/OpenVoiceOS/ovos-tts-server)'s
+ElevenLabs-compatible HTTP API on port `9666` is published to
+`ghcr.io/openvoiceos/ovos-tts-plugin-ahotts`.
+
+The image is fully self-contained and offline: `pyahotts` bundles the synthesis
+engine and all Basque/Spanish voice data, so there is no model download or API key.
+
+```bash
+docker run --rm -p 9666:9666 ghcr.io/openvoiceos/ovos-tts-plugin-ahotts:dev
+```
+
+Or with compose:
+
+```bash
+docker compose up
+```
+
+The served language defaults to Basque (`eu`) and is an `AHOTTS_LANG` build arg
+(`eu` or `es`), so switch it by rebuilding:
+
+```bash
+docker build --build-arg AHOTTS_LANG=es -t ahotts-es .
+```
+
 ## Credits
 
 This plugin was developed by [TigreGotico](https://tigregotico.pt) for OpenVoiceOS under the [ILENIA](https://proyectoilenia.es) project.
