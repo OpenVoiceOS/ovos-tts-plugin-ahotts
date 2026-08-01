@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0a2](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.2.0a2) (2026-08-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.2.0a1...0.2.0a2)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#27](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/27) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.2.0a1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.2.0a1) (2026-07-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a6...0.2.0a1)
