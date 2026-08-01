@@ -1,12 +1,68 @@
 # Changelog
 
-## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.1a1) (2025-06-08)
+## [0.2.0a2](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.2.0a2) (2026-08-01)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.0...0.1.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.2.0a1...0.2.0a2)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- docs: rewrite README in Simplified Technical English [\#27](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/27) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.2.0a1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.2.0a1) (2026-07-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a6...0.2.0a1)
+
+**Merged pull requests:**
+
+- feat: containerize plugin behind ovos-tts-server [\#20](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/20) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.2a6](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a6) (2026-06-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a5...0.1.2a6)
+
+**Merged pull requests:**
+
+- test: add TTS intelligibility e2e \(ovoscope\) [\#13](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/13) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.2a5](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a5) (2026-06-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a4...0.1.2a5)
+
+**Merged pull requests:**
+
+- chore: add missing shared CI workflows [\#12](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.2a4](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a4) (2026-06-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a3...0.1.2a4)
+
+**Merged pull requests:**
+
+- docs: add TigreGotico attribution, link ILENIA [\#11](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/11) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.2a3](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a2...0.1.2a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency python to 3.14 [\#7](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.2a2](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a2) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.2a1...0.1.2a2)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#5](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/5) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.2a1](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.1.2a1) (2025-11-22)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.1.1...0.1.2a1)
+
+**Merged pull requests:**
+
+- Update requirements.txt [\#3](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/3) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
