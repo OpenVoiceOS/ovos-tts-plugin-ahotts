@@ -6,7 +6,7 @@
 # pyahotts bundles the prebuilt HTS synthesis engine (x86_64 + aarch64 .so) and all
 # voice/dictionary data and emits WAV directly, so no system AhoTTS build, no model
 # download, and no ffmpeg transcode are needed.
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 WORKDIR /app
 COPY . /app
