@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0a4](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.2.0a4) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.2.0a3...0.2.0a4)
+
+**Merged pull requests:**
+
+- Update actions/cache action to v6 [\#19](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/pull/19) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.2.0a3](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/tree/0.2.0a3) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-ahotts/compare/0.2.0a2...0.2.0a3)
