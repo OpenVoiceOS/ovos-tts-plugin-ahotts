@@ -26,12 +26,15 @@ class AhoTTSPlugin(TTS):
             raise ValueError(f"unsupported language: {self.lang}")
         self.engine = AhoTTS()
 
-    def get_tts(self, sentence, wav_file, lang=None):
+    def get_tts(self, sentence, wav_file, lang=None, voice=None):
         """Fetch tts audio using ahotts
 
         Arguments:
             sentence (str): Sentence to generate audio for
             wav_file (str): output file path
+            lang (str): optional language override
+            voice (str): accepted for API compatibility; ahotts has a single
+                voice per language so it is ignored.
         Returns:
             Tuple ((str) written file, None)
         """
